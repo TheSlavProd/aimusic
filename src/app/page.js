@@ -419,7 +419,7 @@ export default function Home() {
                     <div className="text-yellow-500">{reviews[currentReview].rating}</div>
                   </div>
                 </div>
-                <p className="text-gray-700 text-lg italic">"{reviews[currentReview].text}"</p>
+                <p className="text-gray-700 text-lg italic">&quot;{reviews[currentReview].text}&quot;</p>
               </motion.div>
               
               {/* Навигация по отзывам */}
