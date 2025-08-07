@@ -1,0 +1,32 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <circle cx="100" cy="100" r="90" fill="url(#grad1)" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Ноты -->
+  <g fill="#ffffff">
+    <!-- Первая нота -->
+    <ellipse cx="70" cy="80" rx="8" ry="12"/>
+    <line x1="78" y1="80" x2="78" y2="40" stroke="#ffffff" stroke-width="3"/>
+    <ellipse cx="82" cy="35" rx="4" ry="6"/>
+    
+    <!-- Вторая нота -->
+    <ellipse cx="120" cy="100" rx="8" ry="12"/>
+    <line x1="128" y1="100" x2="128" y2="60" stroke="#ffffff" stroke-width="3"/>
+    <ellipse cx="132" cy="55" rx="4" ry="6"/>
+    
+    <!-- Третья нота -->
+    <ellipse cx="95" cy="130" rx="8" ry="12"/>
+    <line x1="103" y1="130" x2="103" y2="90" stroke="#ffffff" stroke-width="3"/>
+    <ellipse cx="107" cy="85" rx="4" ry="6"/>
+  </g>
+  
+  <!-- AI символ -->
+  <text x="100" y="180" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">AI MUSIC</text>
+</svg>
