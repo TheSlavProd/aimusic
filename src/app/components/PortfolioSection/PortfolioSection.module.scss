@@ -1,0 +1,102 @@
+.portfolioSection {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #581c87 0%, #7c3aed 60%, #ea580c 100%);
+}
+
+.portfolioContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.portfolioTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 4rem;
+  @media (min-width: 768px) {
+    font-size: 3.5rem;
+  }
+}
+
+.portfolioGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.portfolioCard {
+  display: flex;
+  flex-direction: column;
+  background: #1e293b;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 24px 0 rgba(60, 60, 60, 0.08);
+  &:hover {
+    border-color: #ea580c;
+    box-shadow: 0 8px 32px 0 rgba(234, 88, 12, 0.12);
+  }
+}
+
+.portfolioCardImage {
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #fde68a 0%, #fbbf24 100%);
+}
+.portfolioCardImage2 {
+  background: linear-gradient(135deg, #f472b6 0%, #ef4444 100%);
+}
+.portfolioCardImage3 {
+  background: linear-gradient(135deg, #6b7280 0%, #1e293b 100%);
+}
+.portfolioCardImage4 {
+  background: linear-gradient(135deg, #60a5fa 0%, #2563eb 100%);
+}
+
+.portfolioCardContent {
+  background: #1e293b;
+  padding: 1.2rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 7rem;
+}
+
+.portfolioCardTitle {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.25rem;
+  font-size: 1.15rem;
+}
+
+.portfolioCardCategory {
+  color: #cbd5e1;
+  text-align: center;
+  font-size: 0.98rem;
+}
+
+.portfolioCardLink {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7rem;
+  color: #ea580c;
+  font-size: 1.2rem;
+}
+

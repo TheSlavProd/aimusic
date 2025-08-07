@@ -1,0 +1,112 @@
+.servicesSection {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #581c87 0%, #7c3aed 60%, #ea580c 100%);
+}
+
+.servicesContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.servicesTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 4rem;
+  @media (min-width: 768px) {
+    font-size: 3.5rem;
+  }
+}
+
+.servicesCard {
+  background: #f9fafb;
+  border-radius: 1.5rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 24px 0 rgba(60, 60, 60, 0.08);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.servicesIcon {
+  width: 96px;
+  height: 96px;
+  background: #3b82f6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 0 auto 2rem auto;
+}
+
+.servicesCardTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 2rem;
+}
+
+.servicesDesc {
+  font-size: 1.2rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.servicesListTitle {
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.servicesList {
+  color: #64748b;
+  font-size: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.servicesPrice {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ea580c;
+  margin-bottom: 0.5rem;
+}
+
+.servicesPriceDesc {
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.servicesBtn {
+  background: #3b82f6;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: center;
+  display: inline-block;
+  &:hover {
+    background: #2563eb;
+  }
+}
+

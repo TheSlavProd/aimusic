@@ -1,0 +1,132 @@
+.tariffsSection {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #581c87 0%, #7c3aed 60%, #ea580c 100%);
+}
+
+.tariffsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.tariffsTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+  @media (min-width: 768px) {
+    font-size: 3.5rem;
+  }
+}
+
+.tariffsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+}
+
+.tariffCard {
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 24px 0 rgba(60, 60, 60, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  min-width: 0;
+  max-width: 340px;
+  width: 100%;
+  min-height: 520px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.tariffIcon {
+  width: 56px;
+  height: 56px;
+  background: #fde68a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #ea580c;
+  margin-bottom: 1.2rem;
+}
+
+.tariffName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+.tariffPrice {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.tariffList {
+  color: #222;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.tariffList li {
+  margin-bottom: 0.4rem;
+}
+
+.tariffBtn {
+  background: #ff8200;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.7rem 2.2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  display: block;
+  box-shadow: 0 2px 8px 0 rgba(234, 88, 12, 0.1);
+  margin-top: auto;
+}
+
+.tariffBtn:hover {
+  background: #ea580c;
+}
+
+@media (max-width: 600px) {
+  .tariffsSection {
+    padding: 2rem 0;
+  }
+  .tariffsTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .tariffCard {
+    padding: 1.2rem 0.5rem 1rem 0.5rem;
+    max-width: 98vw;
+    min-height: 0;
+  }
+}
